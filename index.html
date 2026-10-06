@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050507">
+<title>VYRNEXA — EVERYTHING MULTIPLIES.</title>
+<meta name="description" content="VYRNEXA: an endless universe of profiles that multiplies 2× at every level.">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="row">
+    <div>
+      <h1>VYRNEXA</h1>
+      <p class="tag">EVERYTHING MULTIPLIES.</p>
+    </div>
+    <div class="scale">
+      <span class="tag">SCALE</span>
+      <b id="mult">×1</b>
+      <small id="lvl">Level 0</small>
+    </div>
+  </div>
+  <p id="chain"></p>
+  <form id="sf" autocomplete="off">
+    <input id="q" type="text" inputmode="numeric" placeholder="Search any ID, e.g. 98765432109876543210" aria-label="Profile ID">
+    <button type="submit">Go</button>
+  </form>
+  <nav>
+    <button type="button" id="prev">Previous</button>
+    <button type="button" id="next">Next</button>
+    <button type="button" id="mul" class="pri">Multiply 2×</button>
+    <button type="button" id="dis">Discover</button>
+  </nav>
+  <p id="msg" role="status" aria-live="polite"></p>
+</header>
+<main id="feed" tabindex="0"></main>
+<noscript><p style="padding:16px">VYRNEXA needs JavaScript to generate its endless universe.</p></noscript>
+</body>
+</html>

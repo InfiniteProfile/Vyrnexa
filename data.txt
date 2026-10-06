@@ -1,0 +1,28 @@
+# VYRNEXA optional data. Records are separated by a line containing only "-".
+# Records WITHOUT an id add words to the endless generator (separate items with "|").
+# Records WITH an id override fields for that one ID only.
+# Nothing here limits how many profiles exist.
+names: Vyrnexa | Duplix | Twinara | Quadrel | Octavane
+worlds: The Second Mirror | Halved Orbit | Quadrant of Echoes
+dimensions: The Doubled Fold | Dimension of Twice
+types: Self-doubling civilization | Mirror-born collective
+discoveries: Decoded the first doubling hidden inside an ordinary silence.
+-
+classes: Prime Doubler | Seed of Two | Branch of Four
+prefixes: Dup | Twin | Ge
+suffixes: plex | fold | ply
+-
+id: 0
+name: Vyrnexa Prime
+world: Origin Reach 0
+dimension: Folded Dimension D-0001
+class: Seed · Class A0
+type: Doubling cult
+era: Cycle 0 from the First Doubling
+discovery: Recorded the moment one became two.
+description: The first profile, though it has no true beginning. Every record before it also doubled.
+symbol: ⟁
+-
+id: 1
+name: Echo of Vyrnexa
+description: A copy of the profile at ID 0, doubled once and still counting.
